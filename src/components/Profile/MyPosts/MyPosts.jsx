@@ -10,15 +10,11 @@ const MyPosts = () => {
 				<button>Add post</button>
 			</div>
 			<div className={s.posts}>
-				<Post />
-				<Post />
-				<Post />
-				<Post />
-				<Post />
-				<Post />
+				<Post message='Привет, как ты?' likeCount='15' />
+				<Post message='Это мой первый пост' likeCount='20' />
 			</div>
 		</div>
 	)
 }
 
-export default MyPosts
+export default MyPosts;
